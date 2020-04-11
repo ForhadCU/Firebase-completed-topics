@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/primary">
+        <menu>
+            <item android:title="@string/home"
+                android:id="@+id/item_home_id"
+                android:icon="@drawable/home"
+                />
+            <item android:title="@string/events"
+                android:id="@+id/item_event_id"
+                android:icon="@drawable/events"/>
+            <item android:title="@string/guests"
+                android:id="@+id/item_guests_id"
+                android:icon="@drawable/guests"/>
+            <item android:title="@string/to_do_list"
+                android:id="@+id/item_todoList_id"
+                android:icon="@drawable/to_do_list"/>
+            <item android:title="@string/shopping"
+                android:id="@+id/item_shopping_id"
+                android:icon="@drawable/shopping_list"/>
+            <item android:title="@string/budget"
+                android:id="@+id/item_budget_id"
+                android:icon="@drawable/budget"/>
+        </menu>
+    </item>
+    <item android:title="@string/secondary"
+        >
+        <menu>
+            <item android:title="@string/share"
+                android:id="@+id/item_share_id"
+                android:icon="@drawable/share"/>
+            <item android:title="@string/privacy_and_policy"
+                android:id="@+id/item_privacy_id"
+                android:icon="@drawable/privacy"/>
+            <item android:title="@string/contact_us"
+                android:id="@+id/item_contact_id"
+                android:icon="@drawable/contact_us"/>
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="primary">Primary</string>
+    <string name="home">HOME</string>
+    <string name="events">EVENTS</string>
+    <string name="guests">GUESTS</string>
+    <string name="to_do_list">TO-DO-LIST</string>
+    <string name="shopping">SHOPPING</string>
+    <string name="budget">BUDGET</string>
+    <string name="secondary">Secondary</string>
+    <string name="privacy_and_policy">Privacy</string>
+    <string name="share">Share</string>
+    <string name="contact_us">Contact us</string>
+    <string name="nav_open">Navigation bar open</string>
+    <string name="nav_close">Navigation bar close</string>
+    <string name="user_name">User Name</string>
+    <string name="email_address">Email address</string>
+</resources>
