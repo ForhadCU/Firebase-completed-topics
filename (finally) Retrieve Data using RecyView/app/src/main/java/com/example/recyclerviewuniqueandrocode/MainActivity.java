@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 //source: "https://uniqueandrocode.com/retrieve-data-from-firebase-in-recyclerview/"
+//firebase Project: "Only for Testing"
 public class MainActivity extends AppCompatActivity {
     private List<ListData>listData;
     private RecyclerView rv;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         nm.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                listData.clear();
                 if (dataSnapshot.exists()){
                     for (DataSnapshot npsnapshot : dataSnapshot.getChildren()){
                         ListData l=npsnapshot.getValue(ListData.class);
